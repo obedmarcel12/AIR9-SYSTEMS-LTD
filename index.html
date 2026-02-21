@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="IMAGES/30dbe4fa-3ac6-4800-bad0-9c87b84020b6.png"
+    />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    <!-- PAGE LOADER -->
+    <div id="page-loader">
+      <div class="loader-ring"></div>
+    </div>
+
+    <nav
+      class="navbar navbar-expand-xl navbar-dark py-3 fixed-top"
+      style="background: #6a87a1"
+    >
+      <div class="container">
+        <a href="index.html" class="text-decoration-none">
+          <img
+            class="nav-logo"
+            src="images/Air9-logo-removebg-preview.png"
+            alt="AIR9 Logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto font-style nav-font">
+            <li class="nav-item">
+              <a
+                class="nav-link display-5 fs-6 fw-bold"
+                href="index.html"
+                style="color: white !important"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link display-5 fs-6 fw-bold"
+                href="about.html"
+                style="color: white !important"
+                >ABOUT OUR COMPANY</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link display-5 fs-6 fw-bold"
+                href="defense-system.html"
+                style="color: white !important"
+                >DEFENSE SYSTEMS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link display-5 fs-6 fw-bold"
+                href="gallery.html"
+                style="color: white !important"
+                >MISSION PORTFOLIO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link display-5 fs-6 fw-bold"
+                href="contact.html"
+                style="color: white !important"
+                >CONTACT US</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section
+      id="heroCarousel"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <!-- indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#heroCarousel"
+          data-bs-slide-to="3"
+        ></button>
+      </div>
+
+      <!-- slides -->
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active position-relative">
+          <img
+            src="images/7dea41cc-e19e-4ef1-8478-1441b3463ee5.jpg"
+            class="d-block w-100"
+            style="height: 100vh; object-fit: cover"
+            alt=""
+          />
+
+          <!-- dark overlay -->
+          <div class="overlay"></div>
+
+          <div class="carousel-caption font-style">
+            <h1 class="fw-bold" data-aos="zoom-in" data-aos-delay="300">
+              Welcome to AIR9 SYSYEMS LTD
+            </h1>
+            <p data-aos="zoom-in" data-aos-delay="300">
+              We Provide DEFENCE SOLUTIONS & FINANCING
+            </p>
+            <a
+              data-aos="zoom-in"
+              data-aos-delay="300"
+              style="font-weight: 500; margin-top: 20px"
+              href="#about-page"
+              class="btn btn-primary fs-6 px-4 rounded-0 py-2"
+              >Get Started</a
+            >
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item position-relative">
+          <img
+            src="IMAGES/airline-hero-imageone.jpg"
+            class="d-block w-100"
+            style="height: 100vh; object-fit: cover"
+            alt=""
+          />
+
+          <!-- dark overlay -->
+          <div class="overlay"></div>
+
+          <div class="carousel-caption font-style">
+            <h1 class="fw-bold" data-aos="zoom-in" data-aos-delay="300">
+              AIR9 NAF PROJECT
+            </h1>
+            <p>
+              Supply of Quanlity 4 X DA-62 MPP Special Mission <br />
+              Aircraft with Associated Equipment, Training and Flight Simulator
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item position-relative">
+          <img
+            src="IMAGES/missile.webp"
+            class="d-block w-100"
+            style="height: 100vh; object-fit: cover"
+            alt=""
+          />
+          <div class="overlay"></div>
+
+          <div class="carousel-caption font-style">
+            <h1 class="fw-bold" data-aos="zoom-in" data-aos-delay="300">
+              Armored Protection
+            </h1>
+            <p>
+              Battle-proven armored systems engineered to deliver maximum <br />
+              crew safety, mobility, and firepower across modern and asymmetric
+              battlefields.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item position-relative">
+          <img
+            src="IMAGES/star-bg.webp"
+            class="d-block w-100"
+            style="height: 100vh; object-fit: cover"
+            alt=""
+          />
+          <div class="overlay"></div>
+
+          <div class="carousel-caption font-style">
+            <h1 class="fw-bold" data-aos="zoom-in" data-aos-delay="300">
+              A-29 Super Tucano FLIR
+            </h1>
+            <p>
+              Procurement of FLIR Star Safire 380HD units with U.S.-based OEM
+              <br />
+              training for Nigerian operators under a government-to-government
+              arrangement.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+
+      <!-- controls -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </section>
+
+    <section id="about-page" class="about-section py-5">
+      <div class="container">
+        <div class="row align-items-start">
+          <!-- Image -->
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <img
+              src="images/police-three.webp"
+              class="img-fluid rounded"
+              alt="About Air9"
+            />
+          </div>
+
+          <!-- Text -->
+          <div class="col-lg-6 font-about">
+            <h2 class="text-primary">ABOUT OUR COMPANY</h2>
+            <p class="text-muted">
+              Air9 Systems LTD is a registered Nigerian defence and security
+              technology company incorporated on 18th December 2017.
+              <br />
+              We specialise in the procurement, integration, and delivery of
+              critical military equipment, surveillance technologies, and
+              tactical <br />
+              platforms. Air9 Systems LTD bridges the gap between national
+              defence needs and advanced military-grade solutions through
+              strategic global partnerships and proven project execution.
+            </p>
+
+            <h2 class="text-primary mt-4">BACKGROUND INFORMATION</h2>
+            <p class="text-muted">
+              Name of Company: Air9 Systems LTD <br />
+              Registered Address: No. 19, Kema Chikwe <br />
+              Street, Asokoro, Abuja, Nigeria
+            </p>
+
+            <a href="about.html" class="btn btn-primary px-4 rounded-0 py-2">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services-section py-5">
+      <div class="container-fluid">
+        <div class="row align-items-center p-5">
+          <!-- TEXT SIDE -->
+          <div class="col-lg-6 font-style">
+            <h1 class="fw-bold mb-4 px-3 py-1">OUR SERVICES</h1>
+
+            <ul class="services-list">
+              <li>
+                ❑ Procurement and delivery of Unmanned Aerial Vehicles (UAVs).
+              </li>
+              <li>❑ FLIR surveillance camera systems and installation.</li>
+              <li>❑ Airborne platforms (DA-62 ISR Aircraft).</li>
+              <li>
+                ❑ Maritime security vessels (in partnership with Safe Boats
+                International).
+              </li>
+              <li>❑ Tactical armoury solutions and field logistics.</li>
+              <li>❑ Defence systems integration and consultancy</li>
+            </ul>
+          </div>
+
+          <!-- IMAGE SIDE -->
+          <div class="col-lg-6 service-img"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERSHIP SECTION -->
+    <section
+      class="partnership-section py-5"
+      data-aos="zoom-in"
+      data-aos-delay="100"
+    >
+      <div class="container-fluid">
+        <!-- TITLE -->
+        <div class="row mb-5">
+          <div class="col-12 text-center font-style">
+            <h2 class="fw-bold">POTENTIAL NIGERIAN PROJECTS FOR PARTNERSHIP</h2>
+            <p class="lead mt-3">
+              We work with trusted partners to strengthen national security,
+              industrial growth and defence innovation.
+            </p>
+          </div>
+        </div>
+
+        <!-- FIRST ROW -->
+        <div class="row align-items-center mb-5 font-style">
+          <!-- IMAGE -->
+          <div class="col-lg-6 partnership-img-one"></div>
+
+          <!-- LIST -->
+          <div class="col-lg-6 p-5">
+            <ul class="project-list">
+              <li>
+                Unmanned Aerial Vehicle (UAV) Deployment & Training Program
+              </li>
+              <li>Surveillance Systems Integration on Air Platforms</li>
+              <li>
+                Joint venture to assemble and maintain DA-62 ISR aircraft
+                locally, supporting Nigeria's aerial intelligence operations
+              </li>
+              <li>Defence Staff Training Exchange Programs</li>
+            </ul>
+          </div>
+        </div>
+        <br /><br />
+        <br /><br /><br />
+        <!-- SECOND ROW -->
+        <div class="row align-items-center">
+          <!-- TEXT -->
+          <div class="col-lg-6 p-5 Partner-div">
+            <h1 class="fw-bold mb-4">PARTNERS</h1>
+          </div>
+
+          <!-- IMAGE -->
+          <div class="col-lg-6 partnership-img-two"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <!-- Boxes 1-->
+
+    <section class="p-5 Boxes-foxes" data-aos="fade-up">
+      <div class="container">
+        <div class="row text-center g-4">
+          <h1 class="font-style">MISSION PORTFOLIO</h1>
+          <!-- card-one -->
+          <div class="col-md d-flex hover-spark">
+            <div class="card bg-dark rounded-0 text-light">
+              <div class="card-body text-center font-style">
+                <div class="h1 mb-3">
+                  <i
+                    ><img
+                      class="card-img-top rounded-0 custom-card-img"
+                      src="IMAGES/jet-ds2.jpg"
+                      alt=""
+                  /></i>
+                </div>
+                <h3 class="card-title mb-3 font-style">AIR9 NAF PROJECT</h3>
+                <p class="card-text">
+                  Supply of Quantity 4 X DA-62 MPP Special Mission Aircraft with
+                  Associated Equipment.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card two  -->
+          <div class="col-md d-flex hover-spark">
+            <div class="card bg-secondary rounded-0 text-light">
+              <div class="card-body text-center font-style">
+                <div class="h1 mb-3">
+                  <i
+                    ><img
+                      class="card-img-top rounded-0 custom-card-img"
+                      src="IMAGES/Boat-hero.jpg"
+                      alt=""
+                  /></i>
+                </div>
+                <h3 class="card-title mb-3 font-style">
+                  AIR9 NIGERIAN NAVY PROJECT
+                </h3>
+                <p class="card-text">
+                  Commissioning of 15 Defender-class 25-ft patrol boats for the
+                  Nigerian Navy.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card three -->
+          <div class="col-md d-flex hover-spark">
+            <div class="card bg-secondary rounded-0 text-light">
+              <div class="card-body text-center font-style">
+                <div class="h1 mb-3">
+                  <i
+                    ><img
+                      class="card-img-top rounded-0 custom-card-img"
+                      src="IMAGES/tucano camera.jpg"
+                  /></i>
+                </div>
+                <h3 class="card-title mb-3 font-style">
+                  A-29 Super Tucano FLIR Package
+                </h3>
+                <p class="card-text">
+                  Procurement of FLIR Star Safire 380HD units with U.S.-based
+                  OEM training for Nigerian operators.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes 2 -->
+    <section class="p-5 gallery-sec" data-aos="fade-up">
+      <div class="container">
+        <div class="row text-center g-4">
+          <!-- card-one -->
+          <div class="col-md d-flex hover-spark">
+            <div class="card bg-dark rounded-0 text-light">
+              <div class="card-body text-center font-style">
+                <div class="h1 mb-3">
+                  <i
+                    ><img
+                      class="card-img-top rounded-0 custom-card-img"
+                      src="IMAGES/police-one.webp"
+                      alt=""
+                  /></i>
+                </div>
+                <h3 class="card-title mb-3">PROJECTS FOR PARTNERSHIP</h3>
+                <p class="card-text">
+                  Joint venture to assemble and maintain DA-62 ISR aircraft
+                  locally, supporting Nigeria's aerial intelligence operations
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card two  -->
+          <div class="col-md d-flex hover-spark">
+            <div class="card bg-secondary rounded-0 text-light">
+              <div class="card-body text-center font-style">
+                <div class="h1 mb-3">
+                  <i
+                    ><img
+                      class="card-img-top rounded-0 custom-card-img"
+                      src="IMAGES/bullet-gun.avif"
+                      alt=""
+                  /></i>
+                </div>
+                <h3 class="card-title mb-3">
+                  Aerial Defence & Tactical Mobility
+                </h3>
+                <p class="card-text">
+                  Advanced rotary-wing platforms designed for rapid deployment,
+                  surveillance, and mission-critical combat support
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card three -->
+          <div class="col-md d-flex hover-spark">
+            <div class="card bg-secondary rounded-0 text-light">
+              <div class="card-body text-center font-style">
+                <div class="h1 mb-3">
+                  <i
+                    ><img
+                      class="card-img-top rounded-0 custom-card-img"
+                      src="IMAGES/istockphoto-1393750036-612x612.jpg"
+                  /></i>
+                </div>
+                <h3 class="card-title mb-3">
+                  Armored Protection & Ground Superiority
+                </h3>
+                <p class="card-text">
+                  Battle-proven armored systems engineered to deliver maximum
+                  crew safety, mobility, and firepower across modern and
+                  asymmetric battlefields.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div>
+          <a
+            href="gallery.html"
+            class="px-5 py-2 font-style rounded-0 btn btn-dark"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section style="background: #111" class="text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <div class="font-style">
+            <h3 style="color: #f1c40f">Strategic Updates & Partnerships</h3>
+            <p class="mb-0">
+              Receive official updates on defense technologies and procurement
+              opportunities.
+            </p>
+          </div>
+
+          <!-- FORM -->
+          <form action="newsletter.php" method="POST" class="mt-3 mt-md-0">
+            <div class="input-group font-style" style="max-width: 400px">
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Official Email Address"
+                required
+              />
+
+              <button class="btn btn-warning btn-lg" type="submit">
+                Request Access
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <br /><br /><br />
+
+    <!-- CONTACT SECTION -->
+    <section
+      class="contact-hero d-flex align-items-center justify-content-center text-center text-light"
+    >
+      <div class="contact-background">
+        <img src="IMAGES/contact-logo-removebg-preview.png" alt="" />
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section py-5">
+      <div class="container">
+        <div class="row g-4">
+          <!-- ADDRESS SIDE -->
+          <div class="col-lg-5 font-style">
+            <div class="contact-info p-4 h-100">
+              <h4 class="fw-bold mb-3">Head Office</h4>
+              <p>
+                No. 19, Kema Chikwe Street, <br />
+                Asokoro, Abuja, Nigeria
+              </p>
+
+              <hr />
+
+              <h5 class="fw-bold mt-4">Email</h5>
+              <p>
+                info@air9systems.ng, |<br />
+                s.olayinka@air9systems.ng
+              </p>
+
+              <h5 class="fw-bold mt-4">Phone</h5>
+              <p>+234 909 999 4977 | +234 704 111 0333</p>
+            </div>
+          </div>
+
+          <!-- FORM SIDE -->
+          <div class="col-lg-7">
+            <form
+              class="contact-form p-4 font-style"
+              action="contact.php"
+              method="POST"
+            >
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="fullname"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="5"
+                  name="message"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="p-2 px-3 w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAP -->
+      <div class="map-area mt-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.4384329893774!2d7.511073474827162!3d9.023708489072146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0c080f40f677%3A0x65ae730b9f9bafa0!2s19%20Kema%20Chikwe%20St%2C%20Gudu%2C%20Aso%20900110%2C%20Federal%20Capital%20Territory!5e0!3m2!1sen!2sng!4v1771195402789!5m2!1sen!2sng"
+          style="border: 0; width: 100%; height: 70vh"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- FOOTER -->
+
+    <footer class="text-light pt-5 pb-4" style="background-color: #0b1f33">
+      <div class="container">
+        <div class="mb-3">
+          <a href="#home" class="fw-bold"
+            ><img
+              class="nav-logo"
+              src="IMAGES/Air9-logo-removebg-preview.png"
+              alt=""
+          /></a>
+        </div>
+        <div class="row">
+          <!-- Company Info -->
+          <div class="col-md-3 mb-4">
+            <p>
+              AIR9 SYSYEMS LTD delivers advanced aerospace, maritime and defense
+              solutions with precision, innovation and reliability.
+            </p>
+          </div>
+
+          <!-- Mission -->
+          <div class="col-md-3 mb-4">
+            <h5 class="fw-bold">Our Mission</h5>
+            <p>
+              To deliver world-class defence solutions through ethical business
+              practices, superior technical execution, and collaborative
+              partnerships with global defence leaders.
+            </p>
+          </div>
+
+          <!-- Vision -->
+          <div class="col-md-3 mb-4">
+            <h5 class="fw-bold">Our Vision</h5>
+            <p>
+              To be Africa’s most trusted Defence Solution Provider and
+              effective defense technology integrator—providing cutting-edge,
+              mission-ready solutions that support regional peace, security.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-3 mb-4">
+            <h5 class="fw-bold">Quick Links</h5>
+            <ul class="list-unstyled quick-links">
+              <li>
+                <a href="#home" class="text-light text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-light text-decoration-none"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="defense-system.html"
+                  class="text-light text-decoration-none"
+                  >Defense Systems</a
+                >
+              </li>
+              <li>
+                <a href="gallery.html" class="text-light text-decoration-none"
+                  >Mission Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="contact.html" class="text-light text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="border-light" />
+
+        <!-- Bottom -->
+        <div
+          class="text-center font-style py-3 display-6 fs-6 d-flex align-items-center justify-content-center flex-column gap-2"
+        >
+          <span>© 2026 AIR9 SYSYEMS LTD. All Rights Reserved.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      window.addEventListener("load", function () {
+        const loader = document.getElementById("page-loader");
+
+        setTimeout(function () {
+          loader.style.opacity = "0";
+          loader.style.transition = "opacity 0.6s ease";
+
+          setTimeout(function () {
+            loader.style.display = "none";
+          }, 600);
+        }, 100); // 500ms = 1 seconds
+      });
+    </script>
+
+    <!--  -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+        easing: "ease-in-out",
+      });
+    </script>
+  </body>
+</html>

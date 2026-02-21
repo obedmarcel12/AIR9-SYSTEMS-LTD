@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font-style {
+  font-family: "Montserrat", sans-serif;
+  /* letter-spacing: 0.2px; */
+}
+
+/* PAGE LOADER */
+#page-loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #0b1f33; /* same military dark tone */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inset: 0;
+  z-index: 99999;
+}
+
+/* Circular Ring */
+.loader-ring {
+  width: 150px;
+  height: 150px;
+  border: 15px solid rgba(255, 255, 255, 0.2);
+  border-top: 15px solid #f1c40f; /* accent color */
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+/* Smooth Spin */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+/* Collapsed navbar styling */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background: #3e556b;
+    border-left: 3px solid #f1c40f; /* yellow outline */
+    border-top: 3px solid #f1c40f; /* yellow outline */
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 12px;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 15px;
+    position: relative;
+    transition: 0.3s ease;
+  }
+
+  /* Yellow left tactical bar effect */
+  .navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 70%;
+    background: #f1c40f;
+    transition: 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover::before {
+    width: 4px;
+  }
+}
+
+nav li a {
+  text-shadow: 0 15px 40px rgba(7, 7, 7, 0.25) !important;
+}
+
+.nav-logo {
+  height: 70px;
+  width: auto;
+}
+
+/* NAV LINK HOVER EFFECT */
+.navbar .nav-link {
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background: #f1c40f;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar .nav-link:hover::after {
+  width: 90%;
+}
+
+/* Medium and above (stacked navbar) */
+@media (max-width: 1300px) {
+  .nav-logo {
+    height: 60px;
+    width: auto;
+  }
+
+  .navbar .nav-link {
+    display: inline-block;
+  }
+
+  .navbar .nav-link::after {
+    left: 0;
+    transform: none;
+  }
+
+  .navbar .nav-link:hover::after {
+    width: 100%;
+  }
+}
+
+/*  */
+
+/* Small screens */
+@media (max-width: 576px) {
+  .navbar .nav-link:hover::after {
+    width: 100%;
+    height: 2px;
+  }
+  .nav-logo {
+    height: 50px;
+    width: auto;
+  }
+}
+/*  */
+
+.about-hero {
+  height: 75vh;
+  background:
+    linear-gradient(rgba(4, 34, 61, 0.75), rgba(5, 8, 11, 0.75)),
+    url("IMAGES/airline-hero-imageone.jpg"); /* change to your image */
+  background-size: cover;
+  background-position: center;
+}
+
+.about-hero h1 {
+  font-size: 4rem;
+}
+
+/* .about-hero p {
+  font-size: medium;
+  font-weight: 600;
+} */
+
+.what-we-do {
+  min-height: 500px;
+}
+
+/* left */
+.left-panel {
+  background: #1f2a5a;
+  color: white;
+  padding: 80px;
+}
+
+.left-panel h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+/* right */
+.right-panel {
+  background: #f2f2f2;
+  padding: 80px;
+  position: relative;
+}
+
+/* vertical line */
+.timeline {
+  position: relative;
+  padding-left: 80px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: #999;
+}
+
+/* circles */
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -58px;
+  top: 5px;
+  width: 35px;
+  height: 35px;
+  background: #777;
+  border-radius: 50%;
+}
+
+.timeline-item h4 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #3e3d3d;
+  letter-spacing: 0.4px;
+}
+
+.vision h1 {
+  font-size: 2.5rem;
+}
+
+.vision p {
+  font-weight: 500;
+  font-size: large;
+  line-height: 2;
+  letter-spacing: 0.3px;
+}
+
+.mission h1 {
+  font-size: 2.5rem;
+}
+
+.mission p {
+  font-weight: 500;
+  font-size: large;
+  line-height: 2;
+  letter-spacing: 0.3px;
+}
+
+.values-section {
+  width: 100%;
+  background: #f9fbfb;
+}
+
+/* list style */
+.values-list {
+  list-style: disc;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #343434 !important;
+}
+
+/* image */
+.img-side {
+  min-height: 500px;
+  background: url("images/goals-handshake-removebg-preview.png") right center
+    no-repeat;
+  background-size: contain;
+}
+
+/*  */
+
+.Goals-section {
+  width: 100%;
+  background: #f9fbfb;
+}
+
+/* list style */
+.Goals-list {
+  list-style: disc;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #343434 !important;
+}
+
+/* image */
+.img-goals {
+  min-height: 500px;
+  background: url("images/goals-handshake-removebg-preview.png");
+  background-position: left center; /* 👈 THIS IS THE MAGIC */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.quick-links a:hover {
+  color: rgb(249, 200, 6) !important;
+}

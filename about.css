@@ -321,6 +321,7 @@ nav li a {
 
   .about-hero h1 {
     font-size: 2.3rem;
+    font-weight: 800;
   }
 
   /* left */
@@ -362,7 +363,7 @@ nav li a {
   .timeline-item {
     position: relative;
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 5px;
   }
 
   .timeline-item::before {
@@ -377,10 +378,11 @@ nav li a {
   }
 
   .timeline-item h4 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1rem;
+    line-height: 1.7;
     color: #3e3d3d;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.5px;
   }
 
   .vision h1 {
@@ -413,17 +415,37 @@ nav li a {
   /* list style */
   .values-list {
     list-style: disc;
-    font-size: 1rem;
-    line-height: 1.7;
+    font-size: 1.1rem;
+    line-height: 2.5;
+    padding: 0;
     color: #343434 !important;
   }
 
   /* list style */
   .Goals-list {
     list-style: disc;
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 1.1rem;
+    line-height: 2.5;
+    padding: 0;
+
     color: #343434 !important;
+  }
+
+  /* image */
+  .img-side {
+    display: none !important;
+  }
+
+  /*  */
+
+  .Goals-section {
+    width: 100%;
+    background: #f9fbfb;
+  }
+
+  /* image */
+  .img-goals {
+    display: none !important;
   }
 }
 /*  */

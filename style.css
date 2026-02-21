@@ -428,7 +428,7 @@ button:hover {
   .about-section p {
     font-weight: 600;
     line-height: 2.2;
-    font-size: large;
+    font-size: 1rem;
   }
   .about-section img {
     width: 100%;
@@ -443,7 +443,7 @@ button:hover {
   }
 
   .carousel-item img {
-    height: 60vh;
+    height: 50vh;
     object-fit: "cover";
   }
 
@@ -459,7 +459,7 @@ button:hover {
   .carousel-caption p {
     text-align: center;
     font-weight: 700;
-    font-size: clamp(0.8rem, 2vw, 1.2rem);
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
     text-shadow: 0 4px 8px rgba(8, 7, 7, 0.8);
   }
 

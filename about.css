@@ -385,6 +385,10 @@ nav li a {
     letter-spacing: 0.7px;
   }
 
+  .vision,.mission {
+   padding: 20px;
+  }
+
   .vision h1 {
     font-size: 1.7rem;
   }

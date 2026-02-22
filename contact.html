@@ -264,7 +264,6 @@
           class="text-center py-3 display-6 font-style fs-6 d-flex align-items-center justify-content-center flex-column gap-2"
         >
           <span>© 2026 AIR9 SYSYEMS LTD. All Rights Reserved.</span>
-      
         </div>
       </div>
     </footer>
@@ -276,17 +275,9 @@
     ></script>
 
     <script>
-      window.addEventListener("load", function () {
+      window.addEventListener("load", () => {
         const loader = document.getElementById("page-loader");
-
-        setTimeout(function () {
-          loader.style.opacity = "0";
-          loader.style.transition = "opacity 0.6s ease";
-
-          setTimeout(function () {
-            loader.style.display = "none";
-          }, 600);
-        }, 100); // 500ms = 1 seconds
+        loader.classList.add("fade-out");
       });
     </script>
 

@@ -381,17 +381,9 @@
     ></script>
 
     <script>
-      window.addEventListener("load", function () {
+      window.addEventListener("load", () => {
         const loader = document.getElementById("page-loader");
-
-        setTimeout(function () {
-          loader.style.opacity = "0";
-          loader.style.transition = "opacity 0.6s ease";
-
-          setTimeout(function () {
-            loader.style.display = "none";
-          }, 600);
-        }, 100); // 500ms = 1 seconds
+        loader.classList.add("fade-out");
       });
     </script>
 

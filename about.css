@@ -19,6 +19,12 @@
   align-items: center;
   inset: 0;
   z-index: 99999;
+  transition: opacity 0.6s ease;
+}
+
+#page-loader.fade-out {
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* Circular Ring */
@@ -385,8 +391,9 @@ nav li a {
     letter-spacing: 0.7px;
   }
 
-  .vision,.mission {
-   padding: 20px;
+  .vision,
+  .mission {
+    padding: 20px;
   }
 
   .vision h1 {

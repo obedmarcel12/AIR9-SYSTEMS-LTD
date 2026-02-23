@@ -78,14 +78,36 @@
               >
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a
                 class="nav-link display-5 fs-6 fw-bold"
-                href="contact.html"
+                href="#"
+                id="contactDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
                 style="color: white !important"
-                >CONTACT US</a
               >
+                CONTACT US
+              </a>
+
+              <ul
+                class="dropdown-menu dropdown-menu-dark dropdown-menu-end"
+                aria-labelledby="contactDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="contact.html">
+                    Send A Message
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="procurement.html">
+                    Procurement & Inquiry
+                  </a>
+                </li>
+              </ul>
             </li>
+            <!--  -->
           </ul>
         </div>
       </div>
@@ -246,7 +268,7 @@
 
     <!-- FOOTER -->
 
-    <footer class="text-light pt-5 pb-4" style="background-color: #0b1f33">
+    <footer class="text-light pt-5 pb-4 font-style" style="background-color: #0b1f33">
       <div class="container">
         <div class="mb-3">
           <a href="#home" class="fw-bold"

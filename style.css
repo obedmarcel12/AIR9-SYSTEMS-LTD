@@ -24,7 +24,6 @@
   align-items: center;
   inset: 0;
   z-index: 99999;
-
   transition: opacity 0.6s ease;
 }
 

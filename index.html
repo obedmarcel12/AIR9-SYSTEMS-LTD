@@ -65,13 +65,32 @@
                 >HOME</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a
                 class="nav-link display-5 fs-6 fw-bold"
-                href="about.html"
+                href="#"
+                id="contactDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
                 style="color: white !important"
-                >ABOUT OUR COMPANY</a
               >
+                ABOUT OUR COMPANY
+              </a>
+
+              <ul
+                class="dropdown-menu dropdown-menu-dark dropdown-menu-end"
+                aria-labelledby="contactDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="about.html"> Who We Are </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="board-of-directors.html">
+                    Board Of Directors
+                  </a>
+                </li>
+              </ul>
             </li>
 
             <li class="nav-item">

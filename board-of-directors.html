@@ -2,12 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Procurement & Strategic Inquiry | AIR9</title>
-    <meta
-      name="description"
-      content="Official procurement and strategic partnership inquiries for AIR9 defense systems."
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Board of Directors</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,26 +24,22 @@
       href="IMAGES/30dbe4fa-3ac6-4800-bad0-9c87b84020b6.png"
     />
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="pro.css" />
+    <link rel="stylesheet" href="board-directors.css" />
   </head>
-
-  <body style="background: #3e556b; color: #fff">
-    <!-- PAGE LOADER -->
-    <div id="page-loader">
-      <div class="loader-ring"></div>
-    </div>
+  <body>
     <nav
       class="navbar navbar-expand-lg navbar-dark py-3 fixed-top"
       style="background: #6a87a1"
     >
       <div class="container">
-        <a href="index.html" class="text-decoration-none"
-          ><img
+        <a href="index.html" class="text-decoration-none">
+          <img
             class="nav-logo"
             src="IMAGES/Air9-logo-removebg-preview.png"
-            alt="nav-logo"
             loading="lazy"
-        /></a>
+            alt="AIR9 Logo"
+          />
+        </a>
 
         <button
           class="navbar-toggler"
@@ -59,13 +51,30 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav font-style ms-auto">
+          <ul class="navbar-nav ms-auto font-style nav-font">
             <li class="nav-item">
               <a
                 class="nav-link display-5 fs-6 fw-bold"
                 href="index.html"
                 style="color: white !important"
                 >HOME</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link display-5 fs-6 fw-bold"
+                href="defense-system.html"
+                style="color: white !important"
+                >DEFENSE SYSTEMS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link display-5 fs-6 fw-bold"
+                href="gallery.html"
+                style="color: white !important"
+                >MISSION PORTFOLIO</a
               >
             </li>
             <li class="nav-item dropdown">
@@ -78,7 +87,7 @@
                 aria-expanded="false"
                 style="color: white !important"
               >
-                ABOUT OUR COMPANY
+                CONTACT US
               </a>
 
               <ul
@@ -86,125 +95,145 @@
                 aria-labelledby="contactDropdown"
               >
                 <li>
-                  <a class="dropdown-item" href="about.html"> Who We Are </a>
+                  <a class="dropdown-item" href="contact.html">
+                    Send A Message
+                  </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="board-of-directors.html">
-                    Board Of Directors
+                  <a class="dropdown-item" href="procurement.html">
+                    Procurement & Inquiry
                   </a>
                 </li>
               </ul>
             </li>
-
-            <li class="nav-item">
-              <a
-                class="nav-link display-5 fs-6 fw-bold"
-                href="defense-system.html"
-                style="color: white !important"
-                >DEFENSE SYSTEMS</a
-              >
-            </li>
-
-            <li class="nav-item">
-              <a
-                class="nav-link display-5 fs-6 fw-bold"
-                href="gallery.html"
-                style="color: white !important"
-                >MISSION PORTFOLIO</a
-              >
-            </li>
-
             <!--  -->
           </ul>
         </div>
       </div>
     </nav>
 
-    <!--  -->
-    <div class="container procure-div py-5">
-      <div class="text-center mb-5">
-        <h1 class="fw-bold" style="color: #f1c40f">
-          Procurement & Strategic Inquiry
-        </h1>
-        <p class="mt-3">
-          AIR9 engages exclusively with authorized government entities,
-          institutional buyers, and certified defense partners.
-        </p>
-        <p class="small text-secondary">
-          All submissions are subject to compliance verification and regulatory
-          review.
-        </p>
-      </div>
+    <!-- HERO SECTION -->
+    <section class="hero-section text-white text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8">
+            <h1 class="display-4 fw-bold" data-aos="fade-up">
+              Board of Directors
+            </h1>
 
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <form action="pro.php" method="POST" class="bg-dark p-4 rounded">
-            <div class="mb-3">
-              <label class="form-label">Organization / Agency Name</label>
-              <input
-                type="text"
-                name="organization"
-                class="form-control"
-                required
-              />
-            </div>
-
-            <div class="mb-3">
-              <label class="form-label">Country</label>
-              <input type="text" name="country" class="form-control" required />
-            </div>
-
-            <div class="mb-3">
-              <label class="form-label">Authorized Contact Person</label>
-              <input
-                type="text"
-                name="contact_person"
-                class="form-control"
-                required
-              />
-            </div>
-
-            <div class="mb-3">
-              <label class="form-label">Official Email Address</label>
-              <input type="email" name="email" class="form-control" required />
-            </div>
-
-            <div class="mb-3">
-              <label class="form-label">Inquiry Type</label>
-              <select name="inquiry_type" class="form-select" required>
-                <option value="">Select Type</option>
-                <option>Airborne Defense Systems</option>
-                <option>Naval Defense Systems</option>
-                <option>ISR Integration</option>
-                <option>Strategic Partnership</option>
-                <option>Other Authorized Inquiry</option>
-              </select>
-            </div>
-
-            <div class="mb-4">
-              <label class="form-label">Official Message</label>
-              <textarea
-                name="message"
-                rows="5"
-                class="form-control"
-                required
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              class="btn btn-warning w-100 button-color fw-bold"
-            >
-              Submit Official Inquiry
-            </button>
-          </form>
+            <p class="lead mt-3">
+              Our Board of Directors provides strategic leadership, governance,
+              and oversight, ensuring sustainable growth and long-term value for
+              stakeholders.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- INTRO SECTION -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <h2 class="fw-bold mb-4">Leadership & Governance</h2>
+            <p class="text-muted">
+              Our board comprises experienced professionals from diverse
+              industries, bringing expertise in finance, engineering,
+              operations, policy, and strategic management. Together, they guide
+              the company’s vision, mission, and long-term objectives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIRECTORS SECTION -->
+    <section class="pb-5">
+      <div class="container-fluid">
+        <div class="row g-4" >
+          <!-- Director 1 -->
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card director-card h-100">
+              <img
+                src="IMAGES/shakiru-olayinka.jpg"
+                class="card-img-top"
+                alt="Director Name"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">MR. SHAKIRU OLAYINKA</h5>
+                <p class="text-primary fw-semibold">Chief Executive Officer</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Director 2 -->
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card director-card h-100">
+              <img
+                src="IMAGES/engr-abiye.jpg"
+                class="card-img-top"
+                alt="Director Name"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">ENGR. ABIYE H. MEMBERE</h5>
+                <p class="text-primary fw-semibold">Non-Executive Director</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Director 3 -->
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card director-card h-100">
+              <img
+                src="IMAGES/engr-benjamin.jpg"
+                class="card-img-top"
+                alt="Director Name"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">
+                  ENGR. BENJAMIN AKAAKAR FNSCHE
+                </h5>
+                <p class="text-primary fw-semibold">
+                  Vice President - Technical
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Director 4 -->
+          <div class="col-lg-3 col-md-6 col-12">
+            <div class="card director-card h-100">
+              <img
+                src="IMAGES/kehinde-olona.jpg"
+                class="card-img-top"
+                alt="Director Name"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">KEHINDE OLONA</h5>
+                <p class="text-primary fw-semibold">Legal Advisor</p>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="col-12 text-center mt-5">
+            <a
+              href="bio.html"
+              class="px-5 py-2 font-style rounded-0 btn btn-dark"
+              >Read More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- FOOTER -->
 
-    <footer class="text-light pt-5 pb-4" style="background-color: #0b1f33">
+    <footer
+      class="text-light pt-5 pb-4 font-style"
+      style="background-color: #0b1f33"
+    >
       <div class="container">
         <div class="mb-3">
           <a href="#home" class="fw-bold"
@@ -219,8 +248,8 @@
           <!-- Company Info -->
           <div class="col-md-3 mb-4">
             <p>
-              AIR9 delivers advanced aerospace, maritime and defense solutions
-              with precision, innovation and reliability.
+              AIR9 SYSYEMS LTD delivers advanced aerospace, maritime and defense
+              solutions with precision, innovation and reliability.
             </p>
           </div>
 
@@ -252,11 +281,6 @@
                 <a href="#home" class="text-light text-decoration-none">Home</a>
               </li>
               <li>
-                <a href="about.html" class="text-light text-decoration-none"
-                  >About</a
-                >
-              </li>
-              <li>
                 <a
                   href="defense-system.html"
                   class="text-light text-decoration-none"
@@ -268,6 +292,11 @@
                   >Mission Portfolio</a
                 >
               </li>
+              <li>
+                <a href="contact.html" class="text-light text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -276,7 +305,7 @@
 
         <!-- Bottom -->
         <div
-          class="text-center py-3 display-6 font-style fs-6 d-flex align-items-center justify-content-center flex-column gap-2"
+          class="text-center font-style py-3 display-6 fs-6 d-flex align-items-center justify-content-center flex-column gap-2"
         >
           <span>© 2026 AIR9 SYSYEMS LTD. All Rights Reserved.</span>
         </div>
@@ -289,6 +318,7 @@
       crossorigin="anonymous"
     ></script>
 
+    <!--  -->
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const loader = document.getElementById("page-loader");
@@ -303,7 +333,6 @@
         }
       });
     </script>
-
     <!--  -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>

@@ -180,3 +180,15 @@ nav li a {
 .home-anchor:hover {
   color: white !important;
 }
+
+.director-img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .director-img {
+    height: 300px;
+  }
+}

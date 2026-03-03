@@ -176,6 +176,52 @@ nav li a {
   padding-bottom: 90px !important;
 }
 
+/* CUSTOM ABOUT DROPDOWN */
+.custom-dropdown {
+  background-color: #111;
+  border: 2px solid rgb(47, 47, 47);
+  border-radius: 0;
+  padding: 0;
+  min-width: 220px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 0.25s ease-in-out;
+}
+
+.custom-dropdown .dropdown-item {
+  color: #ddd;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background: linear-gradient(90deg, rgb(42, 123, 230));
+  color: #ffff;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.custom-dropdown .dropdown-item:active {
+  background-color: #e0a800;
+  color: #2c2b2b;
+}
+
+.dropdown-item i {
+  font-size: 20px;
+}
+
+/* Smooth fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .font-about {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.3px;

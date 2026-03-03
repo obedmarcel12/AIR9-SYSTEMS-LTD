@@ -265,7 +265,8 @@ nav li a {
 .values-list {
   list-style: disc;
   font-size: 1.2rem;
-  line-height: 1.7;
+  line-height: 2.5;
+  /* border: 2px solid red; */
   color: #343434 !important;
 }
 
@@ -288,7 +289,7 @@ nav li a {
 .Goals-list {
   list-style: disc;
   font-size: 1.2rem;
-  line-height: 1.6;
+  line-height: 2.2;
   color: #343434 !important;
 }
 

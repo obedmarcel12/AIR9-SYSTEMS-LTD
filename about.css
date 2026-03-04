@@ -360,7 +360,7 @@ nav li a {
   }
 
   .about-hero {
-    height: 60vh;
+    height: 50vh;
     background:
       linear-gradient(rgba(4, 34, 61, 0.75), rgba(5, 8, 11, 0.75)),
       url("IMAGES/airline-hero-imageone.jpg"); /* change to your image */

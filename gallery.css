@@ -243,8 +243,8 @@ nav li a {
   .power-showcase {
     height: 60vh;
     background:
-      linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-      url("IMAGES/istockphoto-530983719-612x612.jpg");
+      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("IMAGES/mission-target.jpg");
     background-size: cover;
     background-position: center;
     display: flex;

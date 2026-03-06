@@ -602,10 +602,21 @@ button:hover {
     padding-left: 25px;
   }
 
+  .project-list {
+    line-height: 2;
+    padding: 0;
+  }
+
+  .partners-section {
+    background: #f8fafc;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
   /* label */
 
   .partners-label {
-    font-size: 12px;
+    font-size: 19px;
     letter-spacing: 3px;
     color: #f59e0b;
     font-weight: 600;
@@ -625,7 +636,7 @@ button:hover {
   /* text */
 
   .partners-text {
-    font-size: 14px;
+    font-size: 16px;
     color: #475569;
     line-height: 1.7;
     margin-bottom: 15px;

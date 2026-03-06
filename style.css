@@ -301,10 +301,10 @@ nav li a {
   padding-left: 15px;
 }
 
-.partnership-section {
+/* .partnership-section {
   background: #f8f9fa;
   padding: 30px;
-}
+} */
 
 .project-list {
   line-height: 2.5;
@@ -334,9 +334,9 @@ nav li a {
 /* PARTNERS SECTION */
 
 .partners-section {
-  background: #f8fafc;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  background: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 /* label */
@@ -413,7 +413,8 @@ nav li a {
 }
 
 .Boxes-foxes {
-  margin-top: 100px;
+  padding-top: 60px;
+  background: #f8f6f6;
 }
 
 .Boxes-foxes h3 {
@@ -422,6 +423,10 @@ nav li a {
   text-shadow:
     0 15px 40px rgba(7, 7, 7, 0.25),
     rgba(7, 7, 7, 0.25) !important;
+}
+
+.gallery-sec {
+  padding-bottom: 50px;
 }
 
 .gallery-sec h3 {
@@ -524,6 +529,7 @@ button:hover {
 
   .Boxes-foxes {
     margin-top: 40px !important;
+    padding-bottom: 45px !important;
   }
 
   /* images */
@@ -532,7 +538,7 @@ button:hover {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 250px;
+    min-height: 230px;
   }
 
   .partnership-img-two {
@@ -561,8 +567,8 @@ button:hover {
 
   .about-section p {
     font-weight: 600;
-    line-height: 2;
-    font-size: 0.9rem;
+    /* line-height: 2; */
+    font-size: medium;
   }
   .about-section img {
     width: 100%;
@@ -573,7 +579,7 @@ button:hover {
   }
 
   .about-div {
-    padding: 15px;
+    padding: 10px;
   }
 
   .carousel-item img {
@@ -597,14 +603,42 @@ button:hover {
     text-shadow: 0 4px 8px rgba(8, 7, 7, 0.8);
   }
 
+  .services-section h1 {
+    color: rgb(21, 19, 19);
+    text-align: center;
+  }
+
+  .services-list {
+    list-style: none;
+    padding: 0;
+  }
+
   .services-list li {
-    border-left: 4px solid #6a87a1;
-    padding-left: 25px;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+    color: #434343;
+    font-weight: 600;
+    line-height: 2;
+    font-size: large;
+  }
+
+  /* image */
+  .service-img {
+    background-image: url("IMAGES/istockphoto-1393750036-612x612.jpg"); /* change */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 230px;
+  }
+
+  .services-list li {
+    border-left: none;
+    /* padding-left: 15px; */
   }
 
   .project-list {
     line-height: 2;
-    padding: 0;
+    /* padding: 0; */
   }
 
   .partners-section {
@@ -616,10 +650,13 @@ button:hover {
   /* label */
 
   .partners-label {
-    font-size: 19px;
+    font-size: 22px;
     letter-spacing: 3px;
     color: #f59e0b;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
   }
 
   /* heading */
@@ -629,6 +666,7 @@ button:hover {
     font-weight: 800;
     margin-top: 10px;
     margin-bottom: 20px;
+    text-align: center;
     color: #0f172a;
     line-height: 1.2;
   }
@@ -636,7 +674,7 @@ button:hover {
   /* text */
 
   .partners-text {
-    font-size: 16px;
+    font-size: 18px;
     color: #475569;
     line-height: 1.7;
     margin-bottom: 15px;

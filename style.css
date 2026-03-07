@@ -277,6 +277,11 @@ nav li a {
   min-height: 450px;
 }
 
+.span-anchor a:hover {
+  background: wheat !important;
+  color: #001336 !important;
+}
+
 .span-anchor a {
   text-align: center;
   background: #8a9a98 !important;

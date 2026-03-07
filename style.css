@@ -264,11 +264,8 @@ nav li a {
   color: #f59e0b;
   font-weight: 600;
 }
-.about-h2 {
-  color: #f59e0b;
-}
 
-.about-section p {
+.about-section li {
   font-size: 1rem;
   line-height: 2;
 }
@@ -584,7 +581,7 @@ button:hover {
 
   .about-section h5 {
     font-size: 1.13rem;
-    color: #8c8f93;
+    color: #f1f3f5;
     font-weight: 700 !important;
   }
 
@@ -599,7 +596,7 @@ button:hover {
     justify-content: center;
   }
 
-  .about-section p {
+  .about-section li {
     font-size: 0.9rem;
     color: rgb(185, 181, 181) !important;
     font-weight: 600;

@@ -558,7 +558,7 @@ button:hover {
   }
 
   .about-section {
-    background: lab(100% 0.01 -0.01);
+    background: #0c1117;
     padding-top: 60px !important;
     padding-bottom: 60px !important;
   }
@@ -584,7 +584,7 @@ button:hover {
 
   .about-section h5 {
     font-size: 1.13rem;
-    color: #001336;
+    color: #8c8f93;
     font-weight: 700 !important;
   }
 
@@ -600,7 +600,8 @@ button:hover {
   }
 
   .about-section p {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    color: rgb(185, 181, 181) !important;
     font-weight: 600;
     line-height: 2;
   }

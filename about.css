@@ -249,7 +249,7 @@ nav li a {
   top: 0;
   width: 4px;
   height: 100%;
-  background: #999;
+  background: #123355;
 }
 
 /* circles */
@@ -265,18 +265,19 @@ nav li a {
   top: 5px;
   width: 35px;
   height: 35px;
-  background: #777;
+  background: #193149;
   border-radius: 50%;
 }
 
 .timeline-item h4 {
   font-weight: 700;
   font-size: 1.1rem;
-  color: #3e3d3d;
-  letter-spacing: 0.4px;
+  color: #071c25;
+  /* letter-spacing: 0.2px; */
 }
 
 .vision h1 {
+  color: #071c25;
   font-size: 2.5rem;
 }
 
@@ -284,10 +285,12 @@ nav li a {
   font-weight: 500;
   font-size: large;
   line-height: 2;
+  color: #071c25;
   letter-spacing: 0.3px;
 }
 
 .mission h1 {
+  color: #071c25;
   font-size: 2.5rem;
 }
 
@@ -296,11 +299,16 @@ nav li a {
   font-size: large;
   line-height: 2;
   letter-spacing: 0.3px;
+  color: #071c25;
 }
 
 .values-section {
   width: 100%;
   background: #f9fbfb;
+}
+
+.values-section h1 {
+  color: #071c25 !important;
 }
 
 /* list style */
@@ -309,7 +317,7 @@ nav li a {
   font-size: 1.2rem;
   line-height: 2.5;
   /* border: 2px solid red; */
-  color: #343434 !important;
+  color: #071c25 !important;
 }
 
 /* image */
@@ -327,12 +335,16 @@ nav li a {
   background: #f9fbfb;
 }
 
+.Goals-section h1 {
+  color: #071c25 !important;
+}
+
 /* list style */
 .Goals-list {
   list-style: disc;
   font-size: 1.2rem;
   line-height: 2.2;
-  color: #343434 !important;
+  color: #071c25 !important;
 }
 
 /* image */
@@ -404,8 +416,8 @@ nav li a {
     left: 30px;
     top: 0;
     width: 4px;
-    height: 100%;
-    background: #999;
+    height: 102%;
+    background: #123355;
   }
 
   /* circles */
@@ -422,7 +434,7 @@ nav li a {
     top: 5px;
     width: 35px;
     height: 35px;
-    background: #777;
+    background: #193149;
     border-radius: 50%;
   }
 
@@ -430,13 +442,12 @@ nav li a {
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.7;
-    color: #717070;
-    letter-spacing: 0.7px;
+    color: #071c25;
   }
 
   .vision,
   .mission {
-    padding: 20px;
+    padding: 10px;
   }
 
   .vision h1 {
@@ -445,9 +456,10 @@ nav li a {
 
   .vision p {
     font-weight: 500;
-    font-size: medium;
+    font-size: large;
     line-height: 2;
     letter-spacing: 0.3px;
+    color: #071c25;
   }
 
   .mission h1 {
@@ -456,9 +468,10 @@ nav li a {
 
   .mission p {
     font-weight: 500;
-    font-size: medium;
+    font-size: large;
     line-height: 2;
     letter-spacing: 0.3px;
+    color: #071c25;
   }
 
   .values-section {
@@ -469,20 +482,19 @@ nav li a {
   /* list style */
   .values-list {
     list-style: disc;
-    font-size: 1.1rem;
+    font-size: large !important;
     line-height: 2.5;
     padding: 0;
-    color: #343434 !important;
+    color: #071c25 !important;
   }
 
   /* list style */
   .Goals-list {
     list-style: disc;
-    font-size: 1.1rem;
+    font-size: large !important;
     line-height: 2.5;
     padding: 0;
-
-    color: #343434 !important;
+    color: #071c25 !important;
   }
 
   /* image */

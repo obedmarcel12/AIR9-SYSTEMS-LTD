@@ -303,6 +303,8 @@ nav li a {
   font-weight: 600;
   line-height: 2;
   font-size: large;
+  border-left: 4px solid #6a87a1;
+  padding-left: 15px;
 }
 
 /* image */
@@ -314,27 +316,18 @@ nav li a {
   min-height: 450px;
 }
 
-.services-list li {
-  border-left: 4px solid #6a87a1;
-  padding-left: 15px;
-}
-
-/* .partnership-section {
-  background: #f8f9fa;
-  padding: 30px;
-} */
-
 .project-list {
-  line-height: 2;
+  list-style: none;
   padding: 0;
 }
 
 .project-list li {
-  list-style: none;
-  padding: 10px 0;
+  padding: 12px 0;
   border-bottom: 1px solid #ddd;
-  font-weight: 500;
-  font-size: larger;
+  color: #434343;
+  font-weight: 600;
+  line-height: 2;
+  font-size: large;
   border-left: 4px solid #6a87a1;
   padding-left: 15px;
 }
@@ -667,6 +660,7 @@ button:hover {
     font-weight: 600;
     line-height: 2;
     font-size: large;
+    border-left: none;
   }
 
   /* image */
@@ -678,14 +672,19 @@ button:hover {
     min-height: 230px;
   }
 
-  .services-list li {
-    border-left: none;
-    /* padding-left: 15px; */
+  .project-list {
+    list-style: none;
+    padding-left: 0 !important;
+    padding: 0 !important;
   }
 
-  .project-list {
+  .project-list li {
+    border-bottom: 1px solid #ddd;
+    color: #434343;
+    font-weight: 600;
     line-height: 2;
-    /* padding: 0; */
+    font-size: large;
+    border-left: none;
   }
 
   .partners-section {

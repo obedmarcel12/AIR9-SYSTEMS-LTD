@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         die("Invalid email format.");
     }
 
-    $to = "info@air9.com";   // CHANGE TO YOUR DOMAIN EMAIL
+    $to = "info@air9systems.ng, s.olayinka@air9systems.ng";  
     $subject = "New Procurement Inquiry - AIR9";
 
     $body = "
@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message
     ";
 
-    $headers = "From: info@air9.com\r\n";
+    $headers = "From: info@air9systems.ng\r\n";
     $headers .= "Reply-To: $email\r\n";
 
     // Save to secure log file

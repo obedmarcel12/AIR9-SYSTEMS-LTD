@@ -165,6 +165,8 @@ nav li a {
 }
 /*  */
 
+
+
 .contact-section {
   background: #f8f9fa;
 }
@@ -181,9 +183,10 @@ nav li a {
 
 .contact-info {
   background: white;
-  font-weight: 500;
-  font-size: large;
+  font-weight: 600;
+  font-size: medium;
   color: #282727;
+  line-height: 2;
   border-radius: 8px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
@@ -253,3 +256,4 @@ nav li a {
   width: 12%;
   border: 2px solid tan;
 }
+

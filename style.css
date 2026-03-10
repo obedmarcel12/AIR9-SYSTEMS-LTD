@@ -468,9 +468,10 @@ nav li a {
 
 .contact-info {
   background: white;
-  font-weight: 500;
-  font-size: large;
+  font-weight: 600;
+  font-size: medium;
   color: #282727;
+  line-height: 2;
   border-radius: 8px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
@@ -507,6 +508,8 @@ button:hover {
   transform: translateY(-3px) !important;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
 }
+
+
 
 /*  */
 

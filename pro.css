@@ -276,7 +276,6 @@ nav li a {
   }
 }
 
-
 /* CUSTOM ABOUT DROPDOWN */
 .custom-dropdown {
   background-color: #111;
@@ -317,4 +316,8 @@ nav li a {
   height: 2px;
   width: 12%;
   border: 2px solid tan;
+}
+
+footer {
+  font-family: sans-serif !important;
 }
